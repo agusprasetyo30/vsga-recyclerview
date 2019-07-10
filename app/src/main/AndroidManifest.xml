@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="polinema.ac.id.dtschapter03_starter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RecycleContactActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecycleSuperHeroActivity">
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".RegisterResultActivity" />
+        <activity android:name=".RegisterActivity" /> <!-- Activity Baru ditambahkan -->
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SlideAssignActivity" />
+        <activity android:name=".WelcomeSlideSuperheroActivity" />
+        <activity android:name=".WelcomeBackActivity" />
+        <activity android:name=".WelcomeSlideCalendarActivity" />
+    </application>
+
+</manifest>

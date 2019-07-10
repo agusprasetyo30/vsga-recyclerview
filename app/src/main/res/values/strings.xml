@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Pertemuan 5</string>
+    <string name="logo_text">DTS Kominfo</string>
+    <string name="text_welcome1">Welcome to DTS VSGA</string>
+    <string name="text_sub_welcome1">What is going to happen tomorrow ?</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="log_in">Log In</string>
+    <string name="reset_code">Reset Code</string>
+    <string name="enter_your_reset_code">Enter your number</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_request">Send Request</string>
+    <string name="text_welcome2">Work Happen</string>
+    <string name="text_sub_welcome2">Get Notified When Work Happens</string>
+    <string name="text_welcome3">Task and Assign</string>
+    <string name="text_sub_welcome3">Task and Assign them to colleagues</string>
+    <string name="sub_title_forgot_password">Please enter your email below to recieve your password reset instruction</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="registration">Registration</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="username">Username</string>
+    <string name="enter_your_username">Enter your username</string>
+</resources>
+
+    <!-- File untuk menyimoan variabel string -->

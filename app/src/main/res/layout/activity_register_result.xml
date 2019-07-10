@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterResultActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Success"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view" />
+
+    <TextView
+        android:id="@+id/text_equal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="69dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view"
+        app:layout_constraintStart_toEndOf="@id/text_view1" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view1" />
+
+    <TextView
+        android:id="@+id/text_equal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="44dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view1"
+        app:layout_constraintStart_toEndOf="@id/text_view2" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view2" />
+
+    <TextView
+        android:id="@+id/text_equal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view2"
+        app:layout_constraintStart_toEndOf="@id/text_view3" />
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view3" />
+
+    <TextView
+        android:id="@+id/text_equal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="22dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view3"
+        app:layout_constraintStart_toEndOf="@id/text_view4" />
+
+    <TextView
+        android:id="@+id/tv_result_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil nama"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view"
+        app:layout_constraintStart_toEndOf="@id/text_equal1" />
+
+    <TextView
+        android:id="@+id/tv_result_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil username"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view1"
+        app:layout_constraintStart_toEndOf="@id/text_equal2" />
+
+    <TextView
+        android:id="@+id/tv_result_tanggal_lahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil Tanggal lahir"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view2"
+        app:layout_constraintStart_toEndOf="@id/text_equal3" />
+
+    <TextView
+        android:id="@+id/tv_result_jk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil jenis kelamin"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/text_view3"
+        app:layout_constraintStart_toEndOf="@id/text_equal3" />
+
+</android.support.constraint.ConstraintLayout>
